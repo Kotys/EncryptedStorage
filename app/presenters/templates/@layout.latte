@@ -33,12 +33,6 @@
 			$(document.body).addClass('loading-done');
 		});
 
-		//= shrink and expand the navbar 
-		$(window).bind('scroll', function () {
-			if ($(window).scrollTop() > 50) $('.navbar').addClass('shrink');
-			else $('.navbar').removeClass('shrink');
-		});
-
 		//= equal columns height
 		matchHeight('#states .col-inner');
 
